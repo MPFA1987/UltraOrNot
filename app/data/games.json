@@ -1,0 +1,58 @@
+{
+  "games": [
+    {
+      "id": "game1",
+      "name": "Video Quality Master",
+      "description": "Test your ability to sort videos by quality and guess video quality levels",
+      "websiteUrl": "https://videoqualitymaster.com",
+      "tests": [
+        {
+          "id": "test1",
+          "type": "sort",
+          "title": "Sort by Quality",
+          "description": "Sort these videos from lowest to highest quality",
+          "videos": [
+            { "id": "vid1", "url": "https://example.com/video1.mp4" },
+            { "id": "vid2", "url": "https://example.com/video2.mp4" },
+            { "id": "vid3", "url": "https://example.com/video3.mp4" }
+          ]
+        },
+        {
+          "id": "test2",
+          "type": "guessQuality",
+          "title": "Guess the Quality",
+          "description": "Watch this video and guess its quality level",
+          "video": { "id": "vid4", "url": "https://example.com/video4.mp4" },
+          "qualityOptions": ["Low", "Medium", "High", "Ultra"]
+        }
+      ]
+    },
+    {
+      "id": "game2",
+      "name": "Quake",
+      "description": "Test your ability to sort videos by quality and guess video quality levels",
+      "websiteUrl": "https://videoqualitymaster.com",
+      "tests": [
+        {
+          "id": "test1",
+          "type": "sort",
+          "title": "Sort by Quality",
+          "description": "Sort these videos from lowest to highest quality",
+          "videos": [
+            { "id": "vid1", "url": "https://example.com/video1.mp4" },
+            { "id": "vid2", "url": "https://example.com/video2.mp4" },
+            { "id": "vid3", "url": "https://example.com/video3.mp4" }
+          ]
+        },
+        {
+          "id": "test2",
+          "type": "guessQuality",
+          "title": "Guess the Quality",
+          "description": "Watch this video and guess its quality level",
+          "video": { "id": "vid4", "url": "https://example.com/video4.mp4" },
+          "qualityOptions": ["Low", "Medium", "High", "Ultra"]
+        }
+      ]
+    }
+  ]
+}
